@@ -1,7 +1,7 @@
 # XjenzaBot - IAPT
 An LLM-Powered Private Chatbot for Xjenza Malta
 
-<u>Prerequisites</u><br>
+<ins>Prerequisites</ins><br>
 Before running XjenzaBot, make sure to have installed the following:<br>
 
 1. **Ollama**  

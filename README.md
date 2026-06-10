@@ -19,7 +19,7 @@ Before running XjenzaBot, make sure to have installed the following:<br>
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd chatbot
+   cd Local LLM
    ```
 
 2. **Create and activate a virtual environment**
@@ -40,9 +40,6 @@ Before running XjenzaBot, make sure to have installed the following:<br>
    pip install -r requirements.txt
    ```
 
-<ins>Adding Documents</ins><br>
-Place your Xjenza Malta funding scheme PDF documents inside the `new_pdfs/` folder in the project root. XjenzaBot will automatically load, parse, and index them on startup.
-
 <ins>Running the App</ins><br>
 Make sure Ollama is running in the background, then launch the Streamlit app:
 ```bash
@@ -59,10 +56,10 @@ Open your browser and navigate to the local URL displayed in your terminal (usua
 
 <ins>Project Structure</ins><br>
 ```text
-chatbot/
-├── new_pdfs/           # Place your PDF documents here
+Local LLM/
+├── new_pdfs/           # Xjenza Malta documents
 ├── main.py             # Main application entry point
-├── requirements.txt    # Python dependencies
+├── chatbot/            # Python chatbot virtual environment
 └── speech.mp3          # Temporary voice output file
 ```
    

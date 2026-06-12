@@ -37,7 +37,7 @@ Before running XjenzaBot, make sure to have installed the following:<br>
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r REQUIREMENTS.txt
    ```
 
 <ins>Running the App</ins><br>
